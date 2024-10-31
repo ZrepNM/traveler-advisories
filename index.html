@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveler Advisories</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Traveler Advisories</h1>
+        <p>Your guide to the best travel recommendations based on real-time weather data.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="itinerary.html">Itinerary</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <div class="holiday-images">
+            <img src="rome.jpg" alt="Holiday Picture 1">
+            <img src="paris.jpg" alt="Holiday Picture 2">
+        </div>
+        
+        <div class="info-section">
+            <section class="weather-info">
+                <h2>Weather Information</h2>
+                <form id="locationForm">
+                    <label for="locationInput">Enter Location:</label>
+                    <input type="text" id="locationInput" placeholder="e.g., London">
+                    <button type="submit">Get Weather</button>
+                    <div id="weatherData"></div>
+                    <div id="clothingRecommendation"></div> 
+                    <div id="forecastData"></div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Traveler Advisories &copy; 2024</p>
+    </footer>
+
+    <script src="renderer.js"></script> 
+</body>
+</html>

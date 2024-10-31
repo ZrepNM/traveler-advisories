@@ -1,0 +1,4 @@
+Activity: Visit PSG Stadium, Location: Paris, Date: 2024-11-15, Time: 22:15
+Activity: Watch Football Match, Location: London, Date: 2024-11-01, Time: 19:00
+Activity: Visit Rome, Location: Italy, Date: 2024-11-23, Time: 12:20
+Activity: Visit Barcelona, Location: Spain, Date: 2024-11-18, Time: 02:30

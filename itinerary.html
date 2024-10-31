@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerary Planner</title>
+    <link rel="stylesheet" href="itinerary.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Planner</h1>
+        <p>Plan your Itinerary and Activity for the perfect scheduled trip!</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="itinerary.html">Itinerary</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="itinerary-page">
+        <section class="itinerary-section">
+            <div class="itinerary-container">
+                <div class="itinerary-input">
+                    <h2>Your Personalized Travel Itinerary</h2>
+                    <form id="itineraryForm">
+                        <label for="locationInput">Location:</label>
+                        <input type="text" id="locationInput" placeholder="e.g., Paris">
+                        <label for="activityInput">Activity:</label>
+                        <input type="text" id="activityInput" placeholder="e.g., Visit the museum">
+                        <label for="dateInput">Date:</label>
+                        <input type="date" id="dateInput">
+                        <label for="timeInput">Time:</label>
+                        <input type="time" id="timeInput">
+                        <button type="submit">Add to Itinerary</button>
+                    </form>
+                </div>
+
+                <div class="itinerary-display">
+                    <h2>Your Planned Itinerary</h2>
+                    <div class="search-container">
+                        <label for="searchInput">Search Itinerary:</label>
+                        <input type="text" id="searchInput" placeholder="Search for activities">
+                        <button id="searchButton">Search</button>
+                    </div>
+                    <ul id="itineraryList"></ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Traveler Advisories &copy; 2024</p>
+    </footer>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

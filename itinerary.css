@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('background2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 2px;
+  }
+  
+  nav {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    font-size: 18px;
+  }
+  
+  nav a:hover,
+  nav .active {
+    border-bottom: 2px solid yellow;
+    color: yellow;
+  }
+  
+  #itinerary-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .itinerary-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+  }
+  
+  .itinerary-input, .itinerary-display {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .itinerary-input {
+    flex-basis: 40%;
+  }
+  
+  .itinerary-display {
+    flex-basis: 60%;
+    text-align: center;
+  }
+  
+  .search-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-container label {
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  
+  .search-container input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-container button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #itineraryList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #itineraryList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #itineraryList li .button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+  }
+  
+  input[type="text"], input[type="date"], input[type="time"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #444;
+    transform: translateY(-3px);
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 8px;
+    color: white;
+  }
